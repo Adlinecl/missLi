@@ -1,0 +1,246 @@
+html,body{
+	font-size: 62.5%;
+}
+html,body,p,h6,ul,li{
+	margin: 0;
+	padding: 0;
+}
+.hide{
+	display: none;
+}
+ul{
+	list-style: none;
+}
+body{
+	background: #f9f9f9;
+}
+.clearfix::after{
+	clear:both;
+	height: 0;
+	display: block;
+	content: "";
+}
+.top{
+	width: 100%;
+	height: 4.4rem;
+	background-color: #1b91e0;
+	text-align: center;
+}
+.top-middle{
+	padding: 1rem 0;
+}
+.top-middle span{
+	font-size: 1.7rem;
+	color: #fff;
+}
+.problem{
+	width: 100%;
+	height: 5rem;
+}
+.problem-middle{
+	padding: 1.6rem 0 1.3rem 1.5rem;
+}
+.problem-middle span{
+	font-size: 1.5rem;
+	color: #323232;
+}
+.much, .means, .number, .commans, .good, .fenxi{
+	background: #fff;
+}
+/*.problem-all{
+	background: #fff;
+}*/
+.much-middle{
+	padding: 1.6rem 0 1.7rem 1.5rem;
+}
+.word{
+	margin-bottom: 0.4rem;
+}
+.word .icon{
+	display: inline-block;
+	width: 0.5rem;
+	height: 0.5rem;
+	margin-right: 0.7rem;
+	border-radius: 50%;
+	background: #1b91e0;
+}
+.word .words{
+	font-size: 1.5rem;
+	opacity: 0.8;
+	color: #323232;
+}
+.means-middle{
+	padding: 1rem 0 1rem 1.5rem;
+}
+.means-middle span{
+	font-size: 1.4rem;
+	color: #666;
+	opacity: 0.8;
+}
+.number{
+	border-top: 1px solid #e7e7e7;
+}
+.number-middle{
+	padding: 1rem 0;
+	overflow: hidden;
+
+}
+.one{
+	height: 3.5rem;
+	width:24%;
+	/*padding: 0 1.7rem;*/
+	text-align: center;
+	float: left;
+	border-right: 1px solid #e7e7e7;
+}
+.one0{
+	border: none;
+}
+.numbers{
+	margin-bottom: 1.0rem;
+}
+.number-middle .one p{
+	font-size: 1.8rem;
+	color: #1b91e0;
+}
+.number-middle .one span{
+	color: #999;
+	font-size: 1.2rem;
+}
+.number-middle i{
+	/*height: 4.5rem;*/
+	border: 1px solid #e7e7e7;
+	margin: 0 2.1rem;
+}
+.commans{
+	width: 100%;
+	margin-bottom: 1rem;
+}
+.comman-top{
+	border-bottom: 1px solid #e7e7e7;
+}
+.comman-top-middle{
+	padding: 1.3rem 1.5rem;
+	text-align: center;
+}
+.spans{
+	border-radius: 3px;
+	width: 100%;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	border: 1px solid #1b91e0;
+}
+.comman-top-middle span{
+	width: 49.4%;
+	height: 2.5rem;
+	display: inline-block;
+	border-radius: 3px;
+	font-size: 1.5rem;
+	color: #1b91e0;
+}
+.comman-top-middle .spans .select{
+	background: #1b91e0;
+	color: #fff;
+	z-index: 10;
+}
+.doctor, .user{
+	border-bottom: 1px solid #e7e7e7;
+	overflow: hidden;
+}
+.doctor-middle{
+	padding: 1.6rem 0 0 1.5rem;
+	position: relative;
+}
+.doctor-middle p{
+	font-size: 1.7rem;
+	color:#999;
+}
+.doctor-middle p span{
+	color: #141414;
+}
+.doctor-middle .pone{
+	margin-bottom: 1rem;
+}
+.doctor-middle .ptwo{
+	margin-bottom: 0.7rem;
+}
+.doctor-middle .pthree{
+	text-align: right;
+	margin-right: 1.4rem;
+	font-size: 1rem;
+	color: #999;
+	margin-bottom: 0.5rem;
+}
+.doctor-middle p .director{
+	display: inline-block;
+	width: 5.1rem;
+	height: 1.7rem;
+	line-height: 1.7rem;
+	text-align: center;
+	border-radius: 2px;
+	font-size: 9px;
+	color: #1b91e0;
+	background: #edf6ff;
+	border: 1px solid #1b91e0;
+}
+.user-middle{
+	padding: 1rem 0 2.1rem 1.6rem;
+	overflow: hidden;
+}
+.user-l, .user-r{
+	float: left;
+}
+.user-l img{
+	display: block;
+	width: 4rem;
+	height: 4rem;
+	border-radius: 100%;
+	margin-right: 0.6rem;
+}
+.user-r{
+	margin-top: 0.2rem;
+}
+.user-r .name{
+	color: #323232;
+}
+.user-r p{
+	font-size: 1.2rem;
+	color: #999;
+	line-height: 1.7rem;
+}
+.user-r p span{
+	color: #999;
+}
+.good-middle{
+	padding: 2.4rem 0 2.1rem 1.5rem;
+}
+.good-middle span{
+	font-size: 1.4rem;
+}
+.good-middle .or{
+	color: #999;
+	margin-right: 2.5rem;
+}
+.good-middle .choice{
+	color: #666;
+	margin-right: 3.7rem;
+}
+.fenxi{
+	border-bottom: 1px solid #e7e7e7;
+}
+.fenxi-middle{
+	padding: 1.6rem 0 1.8rem 1.5rem;
+}
+.fenxi-middle .tip{
+	font-size: 1.7rem;
+	line-height: 2.4rem;
+	color: #323232;
+}
+.fenxi-middle .tip span{
+	color: #000;
+}
+.fenxi-middle p{
+	font-size: 1.5rem;
+	color: #999;
+	line-height: 2.1rem;
+}
